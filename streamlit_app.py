@@ -22,13 +22,13 @@ icon_star = "⭐"
 
 def get_actor_1_poster():
     
-    al_pacino_poster = mpimg.imread('Al Pacino.PNG')
+    al_pacino_poster = mpimg.imread('Al Pacino.png')
     st.image(al_pacino_poster, width=200)
 
     
 def get_actor_2_poster():
     
-    robert_di_niro_poster = mpimg.imread('Robert Di Niro.PNG')
+    robert_di_niro_poster = mpimg.imread('Robert Di Niro.png')
     st.image(robert_di_niro_poster, width=235)
     
     
