@@ -77,15 +77,15 @@ def display_actor_info(actor_data):
     for opinion in actor_data:
         print("Opinion", opinion['source'])
         if(opinion['source'] == 'IMDb'):
-            st.image(mpimg.imread('images/IMDB.PNG'), width=60)
+            st.image(mpimg.imread('images/IMDB.png'), width=60)
         elif(opinion['source'] == 'Rotten Tomatoes'):
-            st.image(mpimg.imread('images/Rotten Tomatoes.PNG'), width=100)
+            st.image(mpimg.imread('images/Rotten Tomatoes.png'), width=100)
         elif(opinion['source'] == 'Variety'):
-            st.image(mpimg.imread('images/Variety.PNG'), width=100)
+            st.image(mpimg.imread('images/Variety.png'), width=100)
         elif(opinion['source'] == 'The Guardian'):
-            st.image(mpimg.imread('images/The Guardian.PNG'), width=100) 
+            st.image(mpimg.imread('images/The Guardian.png'), width=100) 
         else:
-            st.image(mpimg.imread('images/Rolling Stone.PNG'), width=140)
+            st.image(mpimg.imread('images/Rolling Stone.png'), width=140)
         #st.subheader(opinion['source'])
         st.write(opinion['text'])
         sentiment = opinion['sentiment']
